@@ -500,7 +500,7 @@ GEM
       webrick (~> 1.7)
       webrobots (~> 0.1.2)
     memo_wise (1.13.0)
-    metanorma (2.5.6.pre.alpha.1)
+    metanorma (2.5.6.pre.alpha.2)
       asciidoctor
       concurrent-ruby
       fontist (>= 2.1.2)
@@ -1120,7 +1120,7 @@ PLATFORMS
 DEPENDENCIES
   isodoc (= 3.7.4.pre.alpha.1)
   isodoc-i18n (= 1.5.4.pre.alpha.1)
-  metanorma (= 2.5.6.pre.alpha.1)
+  metanorma (= 2.5.6.pre.alpha.2)
   metanorma-bipm (= 2.9.1.pre.alpha.1)
   metanorma-cc (= 2.9.1.pre.alpha.1)
   metanorma-cli

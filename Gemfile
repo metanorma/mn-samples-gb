@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # release-wave candidate pins
 gem "metanorma-core", "0.2.5.pre.alpha.1" # wave candidate
-gem "metanorma", "2.5.6.pre.alpha.1" # wave candidate
+gem "metanorma", "2.5.6.pre.alpha.2" # wave candidate
 gem "metanorma-standoc", "3.5.1.pre.alpha.1" # wave candidate
 gem "metanorma-document", "0.5.2.pre.alpha.1" # wave candidate
 gem "isodoc", "3.7.4.pre.alpha.1" # wave candidate
