@@ -28,8 +28,7 @@ gem "metanorma-taste", "1.1.3.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-lutaml", "0.7.55.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-datastruct", "0.3.12.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-glossarist", "0.5.3.pre.alpha.1" # wave candidate
-gem "metanorma-gb", "1.5.9.pre.alpha.2" # wave candidate
-gem "sassc-embedded"
+gem "metanorma-gb", "1.5.9.pre.alpha.3" # wave candidate
 
 gem "metanorma-cli"
 gem "relaton", "= 3.0.0.pre.alpha.17"
