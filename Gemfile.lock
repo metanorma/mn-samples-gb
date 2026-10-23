@@ -51,17 +51,17 @@ GEM
       fractor (~> 0.1)
       thor (~> 1.3)
     camertron-eprun (1.1.1)
-    canon (0.3.80)
+    canon (0.3.114)
       diff-lcs
       json
-      leptris (~> 1.9.314)
-      moxml (~> 0.5.116)
+      leptris (~> 1.9.376)
+      moxml (~> 0.5.149)
       paint
       rainbow
       table_tennis
-      thor
+      thor (~> 1.4)
       unicode-name
-      yeptris (~> 0.6.29)
+      yeptris (~> 0.6.32)
     chemicalml (0.4.0)
       lutaml-model (~> 0.8)
     cldr-plurals-runtime-rb (1.2.0)
@@ -85,7 +85,7 @@ GEM
       base64
       ssrf_filter (~> 1.5)
     csv (3.3.6)
-    date (3.5.1)
+    date (3.6.0)
     diff-lcs (2.0.0)
     domain_name (0.6.20260921)
     down (5.6.1)
@@ -465,13 +465,13 @@ GEM
       moxml (>= 0.1.24)
       parsanol (~> 1.3.68)
       ruby-graphviz
-    lutaml-model (0.8.113)
+    lutaml-model (0.8.126)
       base64 (>= 0.1.1)
       bigdecimal
       canon
       concurrent-ruby
       liquid (>= 4.0, < 6.0)
-      moxml (~> 0.5.84)
+      moxml (~> 0.5.139)
       ostruct
       rubyzip (~> 3.7)
       thor (~> 1.4)
@@ -863,15 +863,15 @@ GEM
       sqlite3 (~> 1.7)
       w3c_api (~> 0.3.3)
       yeptris (>= 0.4)
-    relaton-bib (2.2.0.pre.alpha.1)
+    relaton-bib (2.2.0.pre.alpha.2)
       bibtex-ruby
       iso639
       isoics (~> 0.1.0)
       lutaml-model (~> 0.8.0)
       nokogiri (>= 1.16)
       psych (~> 5.2.0)
-      relaton-core (~> 2.2.0.pre.alpha.1)
-      relaton-logger (~> 2.2.0.pre.alpha.1)
+      relaton-core (~> 0.0.8)
+      relaton-logger (~> 0.2.0)
       rfcxml (~> 0.4.3)
     relaton-cli (3.0.0.pre.alpha.11)
       liquid (~> 5)
@@ -879,16 +879,16 @@ GEM
       relaton (= 3.0.0.pre.alpha.11)
       thor
       thor-hollaback
-    relaton-core (2.2.0.pre.alpha.1)
+    relaton-core (0.0.13)
       nokogiri (>= 1.16)
       psych (~> 5.2.0)
-      relaton-logger (~> 2.2.0.pre.alpha.1)
+      relaton-logger (~> 0.2.0)
     relaton-iev (2.0.2)
       htmlentities (~> 4.3.4)
       nokogiri (>= 1.13.0)
       relaton (>= 2.0.0.pre.alpha.1, < 4)
       uuidtools
-    relaton-logger (2.2.0.pre.alpha.1)
+    relaton-logger (0.2.4)
       logger (~> 1.6)
     relaton-render (3.0.0.pre.alpha.19)
       htmlentities
@@ -1086,21 +1086,21 @@ GEM
       lutaml-model (~> 0.8.53)
       nokogiri
     yaml (0.4.0)
-    yeptris (0.6.30.1-aarch64-linux)
+    yeptris (0.6.39.1-aarch64-linux)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-aarch64-linux-musl)
+    yeptris (0.6.39.1-aarch64-linux-musl)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-arm-linux-eabihf)
+    yeptris (0.6.39.1-arm-linux-eabihf)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-arm-linux-musleabihf)
+    yeptris (0.6.39.1-arm-linux-musleabihf)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-arm64-darwin)
+    yeptris (0.6.39.1-arm64-darwin)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-x86_64-darwin)
+    yeptris (0.6.39.1-x86_64-darwin)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-x86_64-linux)
+    yeptris (0.6.39.1-x86_64-linux)
       ffi (~> 1.15)
-    yeptris (0.6.30.1-x86_64-linux-musl)
+    yeptris (0.6.39.1-x86_64-linux-musl)
       ffi (~> 1.15)
 
 PLATFORMS
@@ -1150,9 +1150,9 @@ DEPENDENCIES
   moxml (= 0.5.153)
   pubid (= 2.0.0.pre.alpha.27)
   relaton (= 3.0.0.pre.alpha.11)
-  relaton-bib (= 2.2.0.pre.alpha.1)
+  relaton-bib (= 2.2.0.pre.alpha.2)
   relaton-render (= 3.0.0.pre.alpha.19)
   sassc-embedded
 
 BUNDLED WITH
-   2.5.22
+  4.0.16
