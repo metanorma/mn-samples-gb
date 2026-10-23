@@ -147,6 +147,15 @@ GIT
       twitter_cldr (>= 6.6.0)
 
 GIT
+  remote: https://github.com/metanorma/metanorma-iec.git
+  revision: e599f4f3776fffaa11d7dd58f01075c6cec825ab
+  branch: main
+  specs:
+    metanorma-iec (2.9.0)
+      metanorma-iso (~> 3.5.0)
+      pubid
+
+GIT
   remote: https://github.com/metanorma/metanorma-ieee.git
   revision: 022ca817696e192dceaf1e261294d03925c89b2a
   branch: main
@@ -204,6 +213,16 @@ GIT
       tzinfo-data
 
 GIT
+  remote: https://github.com/metanorma/metanorma-jis.git
+  revision: 7f39208f9d7a884ba778f0a3c5d728860838dbb7
+  branch: main
+  specs:
+    metanorma-jis (1.2.0)
+      japanese_calendar (~> 0)
+      metanorma-iso (~> 3.5.0)
+      pubid
+
+GIT
   remote: https://github.com/metanorma/metanorma-ogc.git
   revision: 5b2fc0c6d8ec895e60e731612ffa46ca934c316f
   branch: main
@@ -212,6 +231,15 @@ GIT
       iso-639
       metanorma-iso (>= 3.4.2)
       metanorma-standoc (>= 3.4.2)
+
+GIT
+  remote: https://github.com/metanorma/metanorma-plateau.git
+  revision: 97f04b44f5aca491a047ec06ee646f08ad0e85ef
+  branch: main
+  specs:
+    metanorma-plateau (1.3.1)
+      metanorma-jis (~> 1.2.0)
+      pubid
 
 GIT
   remote: https://github.com/metanorma/metanorma-standoc
@@ -730,23 +758,13 @@ GEM
       metanorma-generic (~> 3.5.0)
     metanorma-generic (3.5.0)
       metanorma-standoc (~> 3.5.0)
-    metanorma-iec (2.9.0)
-      metanorma-iso (~> 3.5.0)
-      pubid
     metanorma-ietf-data (0.2.0)
-    metanorma-jis (1.2.0)
-      japanese_calendar (~> 0)
-      metanorma-iso (~> 3.5.0)
-      pubid
     metanorma-mirror (1.0.0)
       lutaml-model (~> 0.8)
     metanorma-mko (1.1.1)
       lutaml-model (~> 0.8, >= 0.8.22)
       rubyzip
       unitsml (~> 0.6)
-    metanorma-plateau (1.3.1)
-      metanorma-jis (~> 1.2.0)
-      pubid
     metanorma-plugin-asciichem (0.1.4)
       asciichem (~> 0.30, >= 0.30.1)
       moxml (~> 0.5)
@@ -1218,12 +1236,15 @@ DEPENDENCIES
   metanorma-core!
   metanorma-document!
   metanorma-gb!
+  metanorma-iec!
   metanorma-ieee!
   metanorma-ietf!
   metanorma-iho!
   metanorma-iso!
   metanorma-itu!
+  metanorma-jis!
   metanorma-ogc!
+  metanorma-plateau!
   metanorma-standoc!
   metanorma-utils!
   moxml (= 0.5.153)
