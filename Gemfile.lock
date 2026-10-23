@@ -1,20 +1,3 @@
-GIT
-  remote: https://github.com/lutaml/moxml.git
-  revision: e1436d10e115092dceb5af5cdecda9b91293e05d
-  branch: main
-  specs:
-    moxml (0.5.117)
-
-GIT
-  remote: https://github.com/pubid/pubid.git
-  revision: 1e11aae65086b00c8d98661d7dafc0863b17b168
-  branch: main
-  specs:
-    pubid (2.0.0.pre.alpha.27)
-      lutaml-model
-      parsanol (>= 1.3.62)
-      parslet
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -343,6 +326,27 @@ GEM
       table_tennis (~> 0.0)
       tbx (~> 0.1)
       thor
+    google-protobuf (4.36.2)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-aarch64-linux-gnu)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-aarch64-linux-musl)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-arm64-darwin)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-x86_64-darwin)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-x86_64-linux-gnu)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-x86_64-linux-musl)
+      bigdecimal
+      rake (~> 13.3)
     graphql (2.6.11)
       base64
       fiber-storage
@@ -554,6 +558,12 @@ GEM
       plurimath (~> 0.11)
       pubid (~> 2.0.0.pre.alpha)
       relaton (~> 3.0.0.pre.alpha)
+    metanorma-gb (1.5.9.pre.alpha.2)
+      gb-agencies (~> 0.0.4)
+      htmlentities (~> 4.3.4)
+      isodoc (>= 3.0)
+      metanorma-iso (>= 3.4.2)
+      twitter_cldr (>= 6.6.0)
     metanorma-generic (3.5.1.pre.alpha.1)
       metanorma-standoc (>= 3.5)
     metanorma-iec (2.9.1.pre.alpha.1)
@@ -694,6 +704,7 @@ GEM
       relaton-render (~> 3.0.0.pre.alpha)
     mn2pdf (2.72)
     mnconvert (1.89.0)
+    moxml (0.5.153)
     multi_json (1.21.2)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.8)
@@ -792,10 +803,15 @@ GEM
     psych (5.2.6)
       date
       stringio
+    pubid (2.0.0.pre.alpha.27)
+      lutaml-model
+      parsanol (>= 1.3.62)
+      parslet
     public_suffix (7.0.5)
     racc (1.8.1)
     rack (3.2.7)
     rainbow (3.1.1)
+    rake (13.4.2)
     rchardet (1.10.2)
     rdf (3.3.1)
       bcp47_spec (~> 0.2)
@@ -900,6 +916,24 @@ GEM
     rubyntlm (0.6.8)
       base64
     rubyzip (3.7.0)
+    sass-embedded (1.106.1-aarch64-linux-gnu)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-aarch64-linux-musl)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-arm-linux-gnueabihf)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-arm-linux-musleabihf)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-arm64-darwin)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-x86_64-darwin)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-x86_64-linux-gnu)
+      google-protobuf (~> 4.31)
+    sass-embedded (1.106.1-x86_64-linux-musl)
+      google-protobuf (~> 4.31)
+    sassc-embedded (1.80.10)
+      sass-embedded (~> 1.80)
     sawyer (0.9.3)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -924,11 +958,8 @@ GEM
     sparql-client (3.3.0)
       net-http-persistent (~> 4.0, >= 4.0.2)
       rdf (~> 3.3)
-    sqlite3 (1.7.3-aarch64-linux)
-    sqlite3 (1.7.3-arm-linux)
-    sqlite3 (1.7.3-arm64-darwin)
-    sqlite3 (1.7.3-x86_64-darwin)
-    sqlite3 (1.7.3-x86_64-linux)
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
     ssrf_filter (1.6.0)
     sterile (1.0.26)
       nokogiri (>= 1.11.7)
@@ -1096,6 +1127,7 @@ DEPENDENCIES
   metanorma-core (= 0.2.5.pre.alpha.1)
   metanorma-csa (= 2.7.4.pre.alpha.1)
   metanorma-document (= 0.5.2.pre.alpha.1)
+  metanorma-gb (= 1.5.9.pre.alpha.2)
   metanorma-generic (= 3.5.1.pre.alpha.1)
   metanorma-iec (= 2.9.1.pre.alpha.1)
   metanorma-ieee (= 1.7.1.pre.alpha.1)
@@ -1115,11 +1147,12 @@ DEPENDENCIES
   metanorma-taste (= 1.1.3.pre.alpha.1)
   metanorma-un (= 0.12.20.pre.alpha.1)
   mn-requirements (= 0.5.14.pre.alpha.1)
-  moxml!
-  pubid!
+  moxml (= 0.5.153)
+  pubid (= 2.0.0.pre.alpha.27)
   relaton (= 3.0.0.pre.alpha.11)
   relaton-bib (= 2.2.0.pre.alpha.1)
   relaton-render (= 3.0.0.pre.alpha.19)
+  sassc-embedded
 
 BUNDLED WITH
    2.5.22

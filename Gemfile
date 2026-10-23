@@ -28,10 +28,12 @@ gem "metanorma-taste", "1.1.3.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-lutaml", "0.7.55.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-datastruct", "0.3.12.pre.alpha.1" # wave candidate
 gem "metanorma-plugin-glossarist", "0.5.3.pre.alpha.1" # wave candidate
+gem "metanorma-gb", "1.5.9.pre.alpha.2" # wave candidate
+gem "sassc-embedded"
 
 gem "metanorma-cli"
 gem "relaton", "= 3.0.0.pre.alpha.11"
 gem "relaton-render", "= 3.0.0.pre.alpha.19"
 gem "relaton-bib", "2.2.0.pre.alpha.1"
-gem "pubid", github: "pubid/pubid", branch: "main"
-gem "moxml", github: "lutaml/moxml", branch: "main"
+gem "pubid", "2.0.0.pre.alpha.27"
+gem "moxml", "0.5.153"
