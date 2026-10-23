@@ -50,7 +50,7 @@ GEM
       bindata (~> 2.5)
       fractor (~> 0.1)
       thor (~> 1.3)
-    camertron-eprun (1.1.1)
+    camertron-eprun (2.0.0)
     canon (0.3.114)
       diff-lcs
       json
@@ -87,7 +87,7 @@ GEM
     csv (3.3.6)
     date (3.6.0)
     diff-lcs (2.0.0)
-    domain_name (0.6.20260921)
+    domain_name (0.7.20261007)
     down (5.6.1)
       addressable (~> 2.8)
       base64 (~> 0.3)
@@ -265,7 +265,7 @@ GEM
       net-http-persistent (>= 4.0.4, < 5)
     faraday-retry (2.4.0)
       faraday (~> 2.0)
-    ferrum (0.18.0)
+    ferrum (0.19.1)
       addressable (~> 2.5)
       base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
@@ -347,7 +347,7 @@ GEM
     google-protobuf (4.36.2-x86_64-linux-musl)
       bigdecimal
       rake (~> 13.3)
-    graphql (2.6.11)
+    graphql (2.6.13)
       base64
       fiber-storage
       logger
@@ -454,10 +454,10 @@ GEM
       nokogiri
       thor
     logger (1.7.0)
-    lutaml-hal (0.2.6)
+    lutaml-hal (0.2.7)
       faraday (~> 2.0)
       faraday-follow_redirects (~> 0.3)
-      lutaml-model
+      lutaml-model (~> 0.8.114)
       lutaml-store (~> 0.3)
       rainbow (~> 3.0)
     lutaml-lml (0.3.1)
@@ -689,7 +689,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.1006)
+    mime-types-data (3.2026.1020)
     mini_portile2 (2.8.9)
     minitest (6.0.6)
       drb (~> 2.0)
@@ -732,8 +732,8 @@ GEM
       racc (~> 1.4)
     nokogiri-styles (0.1.2)
       nokogiri
-    oasis-etm (0.2.1)
-      lutaml-model (~> 0.8.0)
+    oasis-etm (0.2.2)
+      lutaml-model (~> 0.8.114)
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -762,14 +762,14 @@ GEM
       bigdecimal (>= 3.0)
     paint (2.3.0)
     parallel (1.28.0)
-    parsanol (1.3.79-aarch64-linux)
-    parsanol (1.3.79-aarch64-linux-musl)
-    parsanol (1.3.79-arm-linux)
-    parsanol (1.3.79-arm-linux-musl)
-    parsanol (1.3.79-arm64-darwin)
-    parsanol (1.3.79-x86_64-darwin)
-    parsanol (1.3.79-x86_64-linux)
-    parsanol (1.3.79-x86_64-linux-musl)
+    parsanol (1.3.108-aarch64-linux)
+    parsanol (1.3.108-aarch64-linux-musl)
+    parsanol (1.3.108-arm-linux)
+    parsanol (1.3.108-arm-linux-musl)
+    parsanol (1.3.108-arm64-darwin)
+    parsanol (1.3.108-x86_64-darwin)
+    parsanol (1.3.108-x86_64-linux)
+    parsanol (1.3.108-x86_64-linux-musl)
     parslet (2.0.0)
     plane1converter (0.0.1)
     plist (3.7.2)
@@ -803,8 +803,8 @@ GEM
     psych (5.2.6)
       date
       stringio
-    pubid (2.0.0.pre.alpha.27)
-      lutaml-model
+    pubid (2.0.0.pre.alpha.51)
+      lutaml-model (~> 0.8)
       parsanol (>= 1.3.62)
       parslet
     public_suffix (7.0.5)
@@ -826,7 +826,7 @@ GEM
       rexml (~> 3.2)
     readline (0.0.4)
       reline
-    relaton (3.0.0.pre.alpha.11)
+    relaton (3.0.0.pre.alpha.17)
       addressable (~> 2.8)
       algolia (~> 2.3.0)
       base64
@@ -848,7 +848,7 @@ GEM
       loc_mods (~> 0.3.0)
       logger (~> 1.6)
       lutaml-hal (~> 0.2, >= 0.2.5)
-      lutaml-model (~> 0.8.76)
+      lutaml-model (~> 0.8.113)
       lutaml-store (~> 0.3.2)
       mechanize (~> 2.10)
       mini_portile2 (~> 2.8.0)
@@ -856,11 +856,11 @@ GEM
       niso-jats (~> 0.3.4)
       parallel (~> 1.26)
       parslet (~> 2.0.0)
-      pubid (~> 2.0.0.pre.alpha.21)
+      pubid (~> 2.0.0.pre.alpha.28)
       relaton-render (>= 3.0.0.pre.alpha.1, < 4)
       rfcxml (~> 0.4.3)
       rubyzip (~> 3.7)
-      sqlite3 (~> 1.7)
+      sqlite3 (>= 1.7)
       w3c_api (~> 0.3.3)
       yeptris (>= 0.4)
     relaton-bib (2.2.0.pre.alpha.2)
@@ -873,10 +873,10 @@ GEM
       relaton-core (~> 0.0.8)
       relaton-logger (~> 0.2.0)
       rfcxml (~> 0.4.3)
-    relaton-cli (3.0.0.pre.alpha.11)
+    relaton-cli (3.0.0.pre.alpha.17)
       liquid (~> 5)
-      pubid (~> 2.0.0.pre.alpha.13)
-      relaton (= 3.0.0.pre.alpha.11)
+      pubid (~> 2.0.0.pre.alpha.28)
+      relaton (= 3.0.0.pre.alpha.17)
       thor
       thor-hollaback
     relaton-core (0.0.13)
@@ -958,8 +958,14 @@ GEM
     sparql-client (3.3.0)
       net-http-persistent (~> 4.0, >= 4.0.2)
       rdf (~> 3.3)
-    sqlite3 (1.7.3)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (2.10.1-aarch64-linux-gnu)
+    sqlite3 (2.10.1-aarch64-linux-musl)
+    sqlite3 (2.10.1-arm-linux-gnu)
+    sqlite3 (2.10.1-arm-linux-musl)
+    sqlite3 (2.10.1-arm64-darwin)
+    sqlite3 (2.10.1-x86_64-darwin)
+    sqlite3 (2.10.1-x86_64-linux-gnu)
+    sqlite3 (2.10.1-x86_64-linux-musl)
     ssrf_filter (1.6.0)
     sterile (1.0.26)
       nokogiri (>= 1.11.7)
@@ -1050,7 +1056,7 @@ GEM
       rainbow (~> 3.1)
       rubyzip (~> 3.4)
       thor (~> 1.3)
-    uri (1.1.1)
+    uri (1.1.2)
     uuidtools (3.0.0)
     vectory (0.13.1)
       base64
@@ -1148,8 +1154,8 @@ DEPENDENCIES
   metanorma-un (= 0.12.20.pre.alpha.1)
   mn-requirements (= 0.5.14.pre.alpha.1)
   moxml (= 0.5.153)
-  pubid (= 2.0.0.pre.alpha.27)
-  relaton (= 3.0.0.pre.alpha.11)
+  pubid (= 2.0.0.pre.alpha.51)
+  relaton (= 3.0.0.pre.alpha.17)
   relaton-bib (= 2.2.0.pre.alpha.2)
   relaton-render (= 3.0.0.pre.alpha.19)
   sassc-embedded

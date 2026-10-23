@@ -32,8 +32,8 @@ gem "metanorma-gb", "1.5.9.pre.alpha.2" # wave candidate
 gem "sassc-embedded"
 
 gem "metanorma-cli"
-gem "relaton", "= 3.0.0.pre.alpha.11"
+gem "relaton", "= 3.0.0.pre.alpha.17"
 gem "relaton-render", "= 3.0.0.pre.alpha.19"
 gem "relaton-bib", "2.2.0.pre.alpha.2"
-gem "pubid", "2.0.0.pre.alpha.27"
+gem "pubid", "2.0.0.pre.alpha.51"
 gem "moxml", "0.5.153"
