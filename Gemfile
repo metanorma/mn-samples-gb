@@ -25,6 +25,6 @@ gem "metanorma-iso", github: "metanorma/metanorma-iso", branch: "main"
 gem "relaton", "~> 3.0" # 3.0.1 carries the COW prune fix (relaton#392)
 gem "relaton-render", "= 3.0.0"
 gem "relaton-bib", "2.2.0.pre.alpha.2"
-gem "pubid", "2.0.0"
-gem "moxml", "0.5.153"
+gem "pubid", "2.0.3"
+gem "moxml", "0.6.2"
 gem "metanorma-gb", github: "metanorma/metanorma-gb", branch: "main"
