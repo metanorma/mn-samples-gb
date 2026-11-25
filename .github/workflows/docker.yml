@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUNDLE_FROZEN: "true"
+      # GB needs the SimSun/SimHei formulas, whose archives exceed
+      # fontist's default 300 MB formula cap (fontist#569).
+      FONTIST_FORMULA_SIZE_LIMIT: "2000"
     steps:
       - name: Checkout
         uses: actions/checkout@v6
