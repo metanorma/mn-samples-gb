@@ -42,6 +42,7 @@ jobs:
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           use-bundler: true
           agree-to-terms: true
           destination: artifact
