@@ -25,4 +25,4 @@ gem "metanorma-iso", github: "metanorma/metanorma-iso", branch: "main"
 gem "relaton", "~> 3.0" # 3.0.1 carries the COW prune fix (relaton#392)
 gem "pubid", "~> 2.0"
 gem "moxml", github: "lutaml/moxml", branch: "main"
-gem "metanorma-gb", github: "metanorma/metanorma-gb", branch: "main"
+gem "metanorma-gb", "~> 1.5.11" # 1.5.11 carries the designation_text shadow fix (metanorma-gb#191)
