@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: babec9a2a396ba39fba454e92a3b231cdb8e26ec
+  revision: 51657b5a1c04228ad811458f894b191ca6b1e069
   branch: main
   specs:
-    moxml (0.6.17)
+    moxml (0.6.18)
 
 GIT
   remote: https://github.com/metanorma/html2doc
@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/isodoc
-  revision: ce2f5f776dd9f75c55dd6450893425856ff50bd8
+  revision: d72fa80cf3da65b8dcaf83a2740566e722a70372
   branch: main
   specs:
     isodoc (3.7.20)
@@ -143,10 +143,10 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-document
-  revision: 8e7d5b75047b7d0f2a9664e20ecf371fb1bea1c3
+  revision: 928f98365556b1d5e89e3a6c9bb6d6a2a49c1801
   branch: main
   specs:
-    metanorma-document (0.5.13)
+    metanorma-document (0.5.14)
       base64
       glossarist (~> 2.14)
       isodoc-i18n (~> 1.5)
@@ -160,18 +160,6 @@ GIT
       plurimath (~> 0.11.14)
       pubid (~> 2.0.3)
       relaton (~> 3.1.1)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-gb.git
-  revision: f51e1501ed998270e4a8b372d57f69c961d44288
-  branch: main
-  specs:
-    metanorma-gb (1.5.10)
-      gb-agencies (~> 0.0.4)
-      htmlentities (~> 4.3.4)
-      isodoc (~> 3.7)
-      metanorma-iso (>= 3.4.2)
-      twitter_cldr (>= 6.6.0)
 
 GIT
   remote: https://github.com/metanorma/metanorma-iec.git
@@ -217,7 +205,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iso.git
-  revision: 363817bbd5aad8723d69023f9851cbdde34fd04f
+  revision: 5da2cc7d7d6365e7bb6efe698ec4115d6c8ded2a
   branch: main
   specs:
     metanorma-iso (3.5.30)
@@ -277,10 +265,10 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-standoc
-  revision: f37a2095ee3738a3e6dda1b2cea87499420961cf
+  revision: 392ec564ecde688a69f10d1361d8eeea962e3431
   branch: main
   specs:
-    metanorma-standoc (3.5.28)
+    metanorma-standoc (3.5.30)
       addressable (~> 2.8)
       asciidoctor (~> 2.0.0)
       base64
@@ -405,7 +393,7 @@ GEM
       addressable (~> 2.8)
       base64 (~> 0.3)
     drb (2.2.3)
-    ea (0.6.156)
+    ea (0.6.158)
       benchmark
       liquid (~> 5)
       lutaml-model (~> 0.8.159)
@@ -453,7 +441,7 @@ GEM
       cabriolet (~> 0.2.4)
       omnizip (~> 0.3.11)
       thor (~> 1.0)
-    expressir (2.4.84)
+    expressir (2.4.86)
       base64 (>= 0.1.0)
       benchmark
       benchmark-ips
@@ -497,7 +485,7 @@ GEM
     ffi (1.17.4-x86_64-linux-musl)
     fiber-storage (1.0.1)
     fiddle (1.1.8)
-    fontisan (0.4.51-aarch64-linux)
+    fontisan (0.4.52-aarch64-linux)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -506,7 +494,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-aarch64-linux-musl)
+    fontisan (0.4.52-aarch64-linux-musl)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -515,7 +503,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-arm-linux)
+    fontisan (0.4.52-arm-linux)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -524,7 +512,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-arm-linux-musl)
+    fontisan (0.4.52-arm-linux-musl)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -533,7 +521,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-arm64-darwin)
+    fontisan (0.4.52-arm64-darwin)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -542,7 +530,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-x86_64-darwin)
+    fontisan (0.4.52-x86_64-darwin)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -551,7 +539,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-x86_64-linux)
+    fontisan (0.4.52-x86_64-linux)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -560,7 +548,7 @@ GEM
       lutaml-model (~> 0.8)
       moxml (~> 0.6)
       thor (~> 1.3)
-    fontisan (0.4.51-x86_64-linux-musl)
+    fontisan (0.4.52-x86_64-linux-musl)
       base64
       bindata (~> 2.5)
       brotli (~> 0.5)
@@ -745,7 +733,7 @@ GEM
       yeptris (~> 0.6.51)
     lutaml-lml (0.3.8)
       lutaml (>= 0.11.8)
-    lutaml-model (0.8.179)
+    lutaml-model (0.8.180)
       base64 (>= 0.1.1)
       bigdecimal
       canon
@@ -788,6 +776,12 @@ GEM
     memo_wise (1.13.0)
     metanorma-cc (2.9.2)
       metanorma-generic (~> 3.5.1)
+    metanorma-gb (1.5.11)
+      gb-agencies (~> 0.0.4)
+      htmlentities (~> 4.3.4)
+      isodoc (~> 3.7)
+      metanorma-iso (>= 3.4.2)
+      twitter_cldr (>= 6.6.0)
     metanorma-generic (3.5.3)
       metanorma-standoc (>= 3.5)
     metanorma-ietf-data (0.2.0)
@@ -971,7 +965,7 @@ GEM
     prism (2.1.0-x86_64-linux-musl)
     process_executer (4.1.3)
       track_open_instances (~> 0.1)
-    pubid (2.0.51)
+    pubid (2.0.53)
       benchmark
       lutaml-model (~> 0.8)
       parsanol (~> 1.5.0)
@@ -998,7 +992,7 @@ GEM
     readline (0.0.4)
       reline
     regexp_parser (2.13.4)
-    relaton (3.1.9)
+    relaton (3.1.10)
       addressable (~> 2.8)
       algolia (~> 2.3.0)
       base64 (~> 0.3)
@@ -1029,7 +1023,7 @@ GEM
       niso-jats (~> 0.3.4)
       parallel (~> 1.26)
       parsanol (~> 1.5.0)
-      pubid (~> 2.0.50)
+      pubid (~> 2.0.52)
       rfcxml (~> 0.4.3)
       rubyzip (~> 3.7)
       singleton
@@ -1247,21 +1241,21 @@ GEM
       lutaml-model (~> 0.8.159)
       nokogiri (~> 1.19)
     yaml (0.4.0)
-    yeptris (0.6.79.0-aarch64-linux)
+    yeptris (0.6.80.0-aarch64-linux)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-aarch64-linux-musl)
+    yeptris (0.6.80.0-aarch64-linux-musl)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-arm-linux-eabihf)
+    yeptris (0.6.80.0-arm-linux-eabihf)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-arm-linux-musleabihf)
+    yeptris (0.6.80.0-arm-linux-musleabihf)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-arm64-darwin)
+    yeptris (0.6.80.0-arm64-darwin)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-x86_64-darwin)
+    yeptris (0.6.80.0-x86_64-darwin)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-x86_64-linux)
+    yeptris (0.6.80.0-x86_64-linux)
       ffi (~> 1.15)
-    yeptris (0.6.79.0-x86_64-linux-musl)
+    yeptris (0.6.80.0-x86_64-linux-musl)
       ffi (~> 1.15)
 
 PLATFORMS
@@ -1288,7 +1282,7 @@ DEPENDENCIES
   metanorma-cli!
   metanorma-core!
   metanorma-document!
-  metanorma-gb!
+  metanorma-gb (~> 1.5.11)
   metanorma-iec!
   metanorma-ieee!
   metanorma-ietf!
