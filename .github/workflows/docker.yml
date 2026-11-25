@@ -39,12 +39,13 @@ jobs:
       - name: Print Metanorma version
         run: bundle exec metanorma --version
 
-      - name: Cache or generate Metanorma XML
-        uses: actions-mn/build-and-publish@v2
+      - name: Generate the site
+        run: |
+          bundle exec metanorma site generate --config metanorma.yml \
+            --output-dir _site --agree-to-terms
+      - name: Upload the site artifact
+        uses: actions/upload-artifact@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          use-bundler: true
-          agree-to-terms: true
-          destination: artifact
-          artifact-name: mn
-          cache-site-for-manifest: metanorma.yml
+          name: mn
+          path: _site
+          retention-days: 14
